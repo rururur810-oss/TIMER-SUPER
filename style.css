@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0e14;
+    color: #ffffff;
+
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background: url(./img1.svg) center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+nav a {
+    color: #a0a5b5;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.content {
+    max-width: 500px;
+    z-index: 10;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 80;
+}
+
+p {
+    color: #a0a5b5;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.btn-buy {
+    background-color: #7b52ff;
+    color: #ffffff;
+    border: none;
+    padding: 14px 32px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.super {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 9995;
+    font-size: 20px;
+    padding: 10px;
+}
+.btn {
+    position: fixed;
+    right: 15px;
+    z-index: 9999;
+    font-size: 5px;
+    padding: 10px;
+}
